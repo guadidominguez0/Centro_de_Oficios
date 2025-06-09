@@ -1,0 +1,26 @@
+[
+    {
+        "_id":7,
+        "nombre":"Auto",
+        "descripcion":"Mantenimiento y reparación básica de autos.",
+        "duracion_semanas": 18,
+        "dias": ["Lunes", "Miércoles"],
+        "cupo_maximo": 12,
+        "profesor": "Gisela Sosa",
+        "miembros": [
+            42369854
+        ]
+    },
+    {
+        "_id":8,
+        "nombre":"Biclicleta",
+        "descripcion":"Mantenimiento y reparación básica de bicicletas.",
+        "duracion_semanas": 6,
+        "dias": ["Martes", "Jueves"],
+        "cupo_maximo": 20,
+        "profesor": "Fernando Vargas",
+        "miembros": [
+            42369854
+        ]
+    }
+]

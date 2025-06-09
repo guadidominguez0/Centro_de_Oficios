@@ -1,0 +1,50 @@
+[
+    {
+        "_id":9,
+        "nombre":"PC",
+        "descripcion":"Diagnóstico y arreglo de computadoras de escritorio y notebooks.",
+        "duracion_semanas": 10,
+        "dias": ["Sábado"],
+        "nivel": "Intermedio",
+        "profesor": "Natalia Diaz",
+        "miembros": [
+            46985321
+        ]
+    },
+    {
+        "_id":10,
+        "nombre":"Lavarropas",
+        "descripcion":"Diagnóstico y arreglo de lavarropas.",
+        "duracion_semanas": 8,
+        "dias": ["Miércoles"],
+        "nivel": "Inicial",
+        "profesor": "Luis Morales",
+        "miembros": [
+            25855652
+        ]
+    },
+    {
+        "_id":11,
+        "nombre":"Heladeras",
+        "descripcion":"Diagnóstico y arreglo de heladeras y freezers.",
+        "duracion_semanas": 5,
+        "dias": ["Martes", "Jueves"],
+        "nivel": "Básico",
+        "profesor": "Pedro Morales",
+        "miembros": [
+            25855652
+        ]
+    },
+    {
+        "_id":12,
+        "nombre":"Televisores",
+        "descripcion":"Diagnóstico y arreglo de televisores y smartTv",
+        "duracion_semanas": 15,
+        "dias": ["Jueves", "Sábado"],
+        "nivel": "Básico",
+        "profesor": "Natalia Diaz",
+        "miembros": [
+            46985321
+        ]
+    }
+]

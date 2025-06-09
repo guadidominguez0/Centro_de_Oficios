@@ -1,0 +1,38 @@
+[
+    {
+        "_id":4,
+        "nombre":"Básico",
+        "descripcion":"Curso básico de carpintería, primeros pasos.",
+        "duracion_semanas": 12,
+        "dias": ["Lunes", "Viernes"],
+        "materiales_incluidos": true,
+        "profesor": "Pedro Funes",
+        "miembros": [
+            314698752
+        ]
+    },
+    {
+        "_id":5,
+        "nombre":"Restauración",
+        "descripcion":"Curso de restauración de muebles antigüos",
+        "duracion_semanas": 15,
+        "dias": ["Martes", "Jueves"],
+        "materiales_incluidos": false,
+        "profesor": "Sergio Martínez",
+        "miembros": [
+            40159753
+        ]
+    },
+    {
+        "_id":6,
+        "nombre":"Muebles Reciclados",
+        "descripcion":"Curso básico de muebles reciclados.",
+        "duracion_semanas": 8,
+        "dias": ["Míercoles", "Viernes"],
+        "materiales_incluidos": false,
+        "profesor": "Pedro Funes",
+        "miembros": [
+            40159753
+        ]
+    }  
+]

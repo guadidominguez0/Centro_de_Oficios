@@ -1,0 +1,39 @@
+[
+    {
+        "_id":1,
+        "nombre":"Costura",
+        "descripcion":"Curso básico de costura a máquina y a mano.",
+        "duracion_semanas": 8,
+        "dias": ["Lunes", "Miércoles"],
+        "materiales_incluidos": true,
+        "profesor": "Laura Gómez",
+        "miembros": [
+            254632658
+        ]
+    },
+    {
+        "_id":2,
+        "nombre":"Bordado",
+        "descripcion":"Curso básico de bordado.",
+        "duracion_semanas": 6,
+        "dias": ["Sábado"],
+        "materiales_incluidos": true,
+        "profesor": "Laura Gómez",
+        "miembros": [
+            39514205
+        ]
+    },
+    {
+        "_id":3,
+        "nombre":"Tejido",
+        "descripcion":"Curso básico de tejido.",
+        "duracion_semanas": 12,
+        "dias": ["Martes", "Jueves"],
+        "materiales_incluidos": false,
+        "profesor": "Ana Fernández",
+        "miembros": [
+            254632658
+
+        ]
+    }
+]
