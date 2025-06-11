@@ -1,0 +1,40 @@
+// ----------- READ (LECTURA) -----------
+
+// Ver todos los alumnos
+db.alumno.find()
+
+// Ver los alumnos que están en el curso con id 10
+db.alumno.find({curso_id:10})
+
+// Ver los alumnos que se encuentran en estado activo
+db.alumno.find({activo:true})
+
+
+// ----------- CREATE (CREACIÓN) -----------
+
+// Crear un alumno
+db.alumno.insertOne({
+    _id: "36987456",
+    nombre: "Alejandro Juarez",
+    edad: 33,
+    email: "alejandro.juarez@gmail.com",
+    curso_id: [9, 11],
+    fecha_ingreso: ISODate("2025-06-10"),
+    activo: true
+})
+
+
+// ----------- UPDATE (ACTUALIZACIÓN) -----------
+
+// Cambiar el apellido de una persona
+db.alumno.updateOne(
+    { _id: "36987456" },
+     { $set: { nombre: "Alejandro Nuñez" } }
+)
+
+
+// ----------- DELETE (ELIMINACIÓN) -----------
+
+// Eliminar un alumno
+db.alumno.deleteOne({_id:'36987456'})
+
