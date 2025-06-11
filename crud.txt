@@ -9,6 +9,18 @@ db.alumno.find({curso_id:10})
 // Ver los alumnos que se encuentran en estado activo
 db.alumno.find({activo:true})
 
+// Ver solo el nombre de los alumnos que se encuentran en estado activo en el curso con id 5
+db.alumno.find(
+  {
+    activo: true,
+    curso_id: 5
+  },
+  {
+    nombre: 1,
+    _id: 0
+  }
+)
+
 
 // ----------- CREATE (CREACIÓN) -----------
 
